@@ -17,6 +17,12 @@ const bookArray = [
 ];
 
 console.log(typeof(bookArray));
+console.log(bookArray[0]);
+console.log(bookArray[0].name);
+console.log(bookArray.length);
+
+for (i = 0; i < bookArray.length; i++)
+	console.log(bookArray[i].name);
 
 for (i = 0; i < bookArray.length; i++)
 	console.log(bookArray[i]);
